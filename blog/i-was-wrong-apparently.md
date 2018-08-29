@@ -7,6 +7,13 @@ It seems that anything in the `body` field of the admin editor is just dropped i
 
 ![null](/static/assets/screenshot-2018-08-28-13.43.02.png)
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+cool
+
 <table>
 <thead>
 <tr>
