@@ -19,4 +19,7 @@ collections:
     files:
       - name: "rules"
         label: "Rules Page Content"
-        file: "site/content/rules.yml"
+        file: "site/content/rules.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - { name: body, label: Body, widget: markdown }
