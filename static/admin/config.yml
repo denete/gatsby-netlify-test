@@ -7,10 +7,16 @@ media_folder: static/assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: "site/blog"
     create: true
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+  - label: "Pages"
+    name: "pages"
+    files:
+      - name: "rules"
+        label: "Rules Page Content"
+        file: "site/content/rules.yml"
